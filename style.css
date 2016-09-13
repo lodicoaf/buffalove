@@ -1,3 +1,16 @@
 h1 {
-color: red;
+font-family: 'Pacifico', cursive;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+img{
+	width: 100%;
+}
+
+hr{
+	margin: 0 auto;
+	width: 95%;
 }
