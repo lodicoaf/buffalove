@@ -1,10 +1,17 @@
-.main-header h1 {
-	font-family: 'Pacifico', cursive;
-	font-size: 75pt;
+html{
+	background-color: #00345e;
 }
 
-.main-header h2 {
-	font-size: 25pt;
+.main-header h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 80pt;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.main-header h3 {
+	font-size: 18pt;
+	padding-bottom: 15px;
 }
 
 .main-header img{
@@ -24,11 +31,31 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
+main{
+	margin: 0 75px 0 75px;
+}
+
+main h1{
+	font-size: 30pt;
+}
+
 #food img {
 	width: 50%;
 }
 
 #sports img {
-	width: 20%;
 	padding: 10px;
+}
+
+#social li{
+	display: inline;
+	list-style-type: none;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+footer{
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
