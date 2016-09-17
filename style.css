@@ -2,15 +2,20 @@ html{
 	background-color: #00345e;
 }
 
+/*-- Header Style --*/
+header {
+	text-align: center;
+}
+
 .main-header h1 {
 	font-family: 'Pacifico', cursive;
-	font-size: 80pt;
+	font-size: 86pt;
 	margin-bottom: 0;
 	margin-top: 0;
 }
 
 .main-header h3 {
-	font-size: 18pt;
+	font-size: 20pt;
 	padding-bottom: 15px;
 }
 
@@ -18,44 +23,91 @@ html{
 	width: 100%;
 }
 
+/*-- Breakline Style --*/
 hr{
 	margin: 0 auto;
 	width: 95%;
+	border: 1px solid #c7b175;
 }
 
-header {
-	text-align: center;
-}
-
+/*-- Body Style --*/
 body{
 	font-family: 'Raleway', sans-serif;
 }
 
 main{
-	margin: 0 75px 0 75px;
+	padding-top: 50px;
+	background-color: #00345e;
+	text-align: center;
 }
 
-main h1{
-	font-size: 30pt;
+main h1, h3{
+	font-size: 32pt;
+	padding: 10px 10px;
 }
 
+main p{
+	font-size: 16pt;
+	padding: 20px 50px 20px 50px;
+}
+
+main li{
+	font-size: 16pt;
+	text-align: center;
+	list-style-type: none;
+}
+
+
+/*-- Section 1 Style --*/
+#activities{
+	background-color: #8c251c;
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+
+/*-- Section 2 Style --*/
 #food img {
 	width: 50%;
 }
 
+/*-- Section 3 Style --*/
+#sports{
+	background-color: #e5dfcc;
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+
+/*-- Section 4 Style --*/
 #sports img {
-	padding: 10px;
+	padding: 40px 10px 0 10px;
+}
+
+#bills{
+	width: 21%;
+}
+
+/*-- Social link Style --*/
+#social {
+	padding: 20px 0 20px 0;
 }
 
 #social li{
 	display: inline;
 	list-style-type: none;
-	padding: 0 10px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
+.social-nav ul li {
+  opacity: .75;
+}
+.social-nav ul li:hover {
+  opacity: 1;
+}
+
+/*-- Footer Style --*/
 footer{
-	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	text-align: justify;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
